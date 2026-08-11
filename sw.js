@@ -1,6 +1,6 @@
 // RCF Hidratação — Service Worker v2
 // Incrementar CACHE_NAME força a limpeza do cache antigo em todos os dispositivos
-const CACHE_NAME = 'rcf-v5';
+const CACHE_NAME = 'rcf-v6';
 
 const ASSETS = [
   './',
@@ -8,8 +8,8 @@ const ASSETS = [
   './style.css',
   './app.js',
   './manifest.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
+  './icon-192.png',
+  './icon-512.png',
 ];
 
 // INSTALL — cacheia assets novos
